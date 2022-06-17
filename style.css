@@ -22,6 +22,10 @@ main {
   padding: 1.8em;
   height: 50%;
   width: 33%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+  
 }
 .left-content h2 {
   padding: 2px;
@@ -43,6 +47,8 @@ main {
   padding: 1.8em;
   height: 50%;
   width: 33%;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 .right-content h2 {
   padding: 2px;
