@@ -92,9 +92,10 @@ main {
   font-weight: 700;
   margin:50px 300px;
   place-items: center;
+
   padding: 15px 20px;
   width: 50%;
-  height:5vh;
+  height:10vh;
   cursor: pointer;
   background-color: #c9c9c9;
 }
