@@ -25,8 +25,6 @@ main {
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
-  
-}
 .left-content h2 {
   padding: 2px;
   color: white;
@@ -55,12 +53,33 @@ main {
   color: white;
 }
 
-.button {
+.button1 {
   border-radius: 30px;
   border: 2px;
   font-size: 10px;
   padding: 15px 20px;
   width: 125px;
+  color:hsl(31, 77%, 52%);
+  background-color: #ffffff;
+}
+
+.button2 {
+  border-radius: 30px;
+  border: 2px;
+  font-size: 10px;
+  padding: 15px 20px;
+  width: 125px;
+  color: hsl(184, 100%, 22%);
+  background-color: #ffffff;
+}
+
+.button3 {
+  border-radius: 30px;
+  border: 2px;
+  font-size: 10px;
+  padding: 15px 20px;
+  width: 125px;
+  color: hsl(179, 100%, 13%);
   background-color: #ffffff;
 }
 
@@ -80,20 +99,7 @@ main {
   background-color: #c9c9c9;
 }
 
-.button #spec_button3{
-  color:hsl(179, 100%, 13%);
-}
-
-.button #spec_button2{
-  color:hsl(184, 100%, 22%);
-}
-
-.button #spec_button1{
-  color:hsl(31, 77%, 52%);
-}
-
-
-.button:hover{
+.button1:hover{
   border-color: rgb(255, 255, 255);
   cursor: pointer;
   border-style: solid;
@@ -102,6 +108,24 @@ main {
   background-color:transparent;
 }
 
+
+.button2:hover{
+  border-color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-style: solid;
+  border-width: 3px;
+  color: rgb(255, 255, 255);
+  background-color:transparent;
+}
+
+.button3:hover{
+  border-color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-style: solid;
+  border-width: 3px;
+  color: rgb(255, 255, 255);
+  background-color:transparent;
+}
 
 h2 {
     font-family: 'Big Shoulders Display', cursive;
